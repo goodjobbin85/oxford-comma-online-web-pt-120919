@@ -9,7 +9,7 @@ def oxford_comma(array)
       if word == array[-2] 
         word << " and "
       end
-      word.split
+      word.to_s
     end
   end
 end
