@@ -20,6 +20,6 @@ def oxford_comma(array)
       final_string << word + ", and "
     end
   end 
-  final_string
+  final_string.chomp(", ")
   end
 end
