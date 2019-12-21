@@ -5,7 +5,7 @@ def oxford_comma(array)
     new_array = array.join(" and ") 
   else
     array.each do |word|
-      word.join("") unless word == array[-1]
+      word.join unless word == array[-1]
       if word == array[-2] 
         word << " and "
       end
