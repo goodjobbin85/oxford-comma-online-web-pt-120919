@@ -17,7 +17,8 @@ def oxford_comma(array)
   array.each do |word| 
     final_string << word + ", " unless word == array[-1]
     if word == array[-2] 
-      word << " and "
+      word << " and " 
+    end
   end 
   final_string
   end
